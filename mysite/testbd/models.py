@@ -7,7 +7,7 @@ class Transaction(models.Model):
         WITHDRAW = 2
 
         choices = (
-	        (DEPOSIT, u'out'),
+            (DEPOSIT, u'out'),
             (WITHDRAW, u'in'),
         )
 
